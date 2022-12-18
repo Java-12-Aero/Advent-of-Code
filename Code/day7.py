@@ -1,0 +1,1 @@
+file = open("Input\Input7.txt")
