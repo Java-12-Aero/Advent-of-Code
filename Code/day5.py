@@ -13,9 +13,6 @@ for line in instructions:
     box = int(box)
     p1 = int(p1)
     p2 = int(p2)
-    #print(stacks[p1][-box:])
-    #print(stacks[p1][:-box])
-    #print(stacks[p1])
     stacks[p2] = stacks[p2] + stacks[p1][-box:]
     stacks[p1] = stacks[p1][:-box]
 
